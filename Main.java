@@ -24,7 +24,7 @@ public class Main {
         System.out.println("-----------------------");
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите имена для заполнения первого списка");
+        System.out.println("Введите имена для заполнения второго списка");
 
         ArrayList<String> menNames = new ArrayList<>();
         menNames.add(scan.nextLine());
