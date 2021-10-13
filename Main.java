@@ -7,20 +7,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+        
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите имена для заполнения первого списка");
-        String scName1 = scanner.nextLine();
-        String scName2 = scanner.nextLine();
-        String scName3 = scanner.nextLine();
-        String scName4 = scanner.nextLine();
-        String scName5 = scanner.nextLine();
+
         ArrayList<String> names = new ArrayList<>();
-        names.add(scName1);
-        names.add(scName2);
-        names.add(scName3);
-        names.add(scName4);
-        names.add(scName5);
+        names.add(scanner.nextLine());
+        names.add(scanner.nextLine());
+        names.add(scanner.nextLine());
+        names.add(scanner.nextLine());
+        names.add(scanner.nextLine());
         for (String name : names ) {
             System.out.println(name);
         }
@@ -29,17 +25,13 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите имена для заполнения первого списка");
-        String scMenName1 = scanner.nextLine();
-        String scMenName2 = scanner.nextLine();
-        String scMenName3 = scanner.nextLine();
-        String scMenName4 = scanner.nextLine();
-        String scMenName5 = scanner.nextLine();
+
         ArrayList<String> menNames = new ArrayList<>();
-        menNames.add(scMenName1);
-        menNames.add(scMenName2);
-        menNames.add(scMenName3);
-        menNames.add(scMenName4);
-        menNames.add(scMenName5);
+        menNames.add(scan.nextLine());
+        menNames.add(scan.nextLine());
+        menNames.add(scan.nextLine());
+        menNames.add(scan.nextLine());
+        menNames.add(scan.nextLine());
         for (String menName : menNames) {
             System.out.println(menName);
         }
